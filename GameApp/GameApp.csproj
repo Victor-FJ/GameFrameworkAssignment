@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GameFramework\GameFramework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ConsoleUtilities">
+      <HintPath>..\..\..\..\Victory\Programmering\Hall Of Fame\VictorsConsoleAnthology\ConsoleUtilities\bin\Debug\netcoreapp3.1\ConsoleUtilities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
